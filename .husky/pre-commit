@@ -1,5 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+exec >/dev/tty 2>&1
+
 # Add the following
 pnpm lint-staged -p true
