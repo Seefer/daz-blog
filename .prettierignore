@@ -1,4 +1,6 @@
 .yarn
 .next
+pnnpm-lock.yaml
+package-lock.json
 dist
 node_modules
