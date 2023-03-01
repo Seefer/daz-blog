@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-// eslint-disable-next-line no-unused-vars
-
 export default function Home() {
   return (
     <>
