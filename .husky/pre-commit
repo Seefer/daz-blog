@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Add the following
-pnpm lint-staged -p true
+FORCE_COLOR=0 pnpm lint-staged -p true
