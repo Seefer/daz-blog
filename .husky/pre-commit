@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+# Below line fixes excessive console ouput for Windows users running lint-staged from Husky shell
 exec >/dev/tty 2>&1
 
-# Add the following
 pnpm lint-staged -p true
