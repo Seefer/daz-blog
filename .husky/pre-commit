@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-pnpm lint
-tsc --noEmit --pretty && pnpm dlx eslint --fix . && pnpm dlx prettier --write .
+tsc --noEmit --pretty && pnpm dlx eslint --fix . && pnpm dlx prettier --write . && pnpm dlx lint-staged
